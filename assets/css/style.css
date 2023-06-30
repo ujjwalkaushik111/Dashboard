@@ -328,10 +328,11 @@ section::-webkit-scrollbar {
     right: 5%;
 }
 
+
+
 @media (min-width:1250px) {
-    .position-abs-1 {
-        top: 28% !important;
-        position: absolute;
+    .slick-slider {
+        transform: translateY(30%);
     }
 }
 
